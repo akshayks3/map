@@ -1,0 +1,18 @@
+p {
+  font-family: Lato;
+}
+
+.path1 {
+  fill: rgba(65, 170, 240, 0.678);
+  stroke: #ffff;
+  stroke-width: 2;
+  cursor: pointer;
+  stroke-opacity: 1;
+  pointer-events: all;
+  &:hover {
+    fill: rgb(216, 156, 101);
+  }
+  &--boundary {
+    stroke: rgba(61, 7, 255, 0.188);
+  }
+}

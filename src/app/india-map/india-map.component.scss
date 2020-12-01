@@ -1,0 +1,48 @@
+.map {
+  padding: 0;
+  margin-top: -1rem;
+  max-width: 100%;
+  height: 100%;
+}
+.mapdiv {
+  margin: auto;
+}
+.path1 {
+  fill: rgba(65, 147, 240, 0.966);
+  stroke: #ffff;
+  stroke-width: 4;
+  &:hover {
+    fill: rgb(216, 156, 101);
+  }
+}
+.path2 {
+  fill: rgba(65, 147, 240, 0.966);
+  &:hover {
+    fill: rgb(216, 156, 101);
+  }
+}
+
+.jkspetial {
+  fill: rgba(65, 147, 240, 0.966);
+  &:hover {
+    fill: rgb(216, 156, 101);
+  }
+}
+
+.map_box {
+  text-align: end;
+  height: 5rem;
+  &--details {
+    border-radius: 1rem;
+    background-color: rgba(143, 196, 231, 0.603);
+    max-width: 100%;
+    min-width: 50%;
+    text-align: center;
+    display: inline-block;
+  }
+  &--state {
+    font-size: 2rem;
+    font-weight: 700;
+    color: rgba(69, 8, 236, 0.938);
+  }
+}
